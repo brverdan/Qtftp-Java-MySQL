@@ -1,0 +1,245 @@
+.navbar.navbar-light.bg-light{
+    background-color: #fa8072 !important;
+}
+
+body{
+    background-image: url(../fotos/background.jpg);
+    background-repeat: repeat;
+    background-size:100%;
+}
+
+#slide{
+    
+    margin: auto;
+    width: 52%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fa8072;
+}
+
+#foto {
+    background-color: #fa8072;
+}
+
+#btnEntrar{
+  font-family: cursive;
+  font-size:16px;
+  font-weight:700;
+  border-color: white;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+
+#btnEntrar:hover, #btnEntrar:active{
+    background-color: #fa8072 !important;
+    
+}
+
+#texto{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.card-deck{
+    width: 39%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card-body{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #fa8072;
+}
+
+.card-img-top{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #fa8072;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;          
+    align-items: center;
+}
+
+#RestauranteLogo{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#RestauranteLogo{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    display: block;
+    width: 50%;
+    margin: auto;
+    
+}
+
+#ClienteLogo{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    display: block;
+   width: 50%;
+   margin: auto;
+}
+
+.coluna{
+    float: left;
+    width: 50%;
+    
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row2 {
+  width: 100%;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;          
+    align-items: center;
+}
+
+
+.col-5 {
+  -ms-flex: 5%; /* IE10 */
+  flex: 5%;
+}
+
+.col-7 {
+  -ms-flex: 7%; /* IE10 */
+  flex: 7%;
+}
+
+
+.col-5,
+.col-7 {
+  padding: 0 16px;
+}
+
+.container2 {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+
+.btnc {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btnc:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.alert.alert-danger{
+  width: 35%;
+  margin: auto;
+  font-size: 30px;
+
+}
+
+.btn2.btn-secondary.btn-lg{
+  background-color: #fa8072;
+  border-color: #fa8072;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;          
+  margin: auto;
+}
+
+#telaLog{
+  background-color: #fa8072;
+  margin: auto;
+  width: 20%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #ff7060;
+  color: white;
+}
+
+#telaCadPrato{
+  background-color: #fa8072;
+  margin: auto;
+  padding: 10px;
+  width: 20%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #ff7060;
+  color: white;
+}
+
+#exampleInputDescricao1{
+  padding: 40px;
+}
+
+.list-group{
+  margin: auto;
+  width: 30%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ff7060;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row2 {
+    flex-direction: column-reverse;
+  }
+}
